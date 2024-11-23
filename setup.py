@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
      name='finlab-crypto',
-     version='0.2.22',
+     version='0.2.28',
      author="FinLab",
      author_email="finlabstaff@gmail.com",
      description="A backtesting framework for crypto currency",
@@ -12,8 +12,7 @@ setuptools.setup(
    long_description_content_type="text/markdown",
      packages=['finlab_crypto'],
      install_requires=[
-        'numpy==1.20.0',
-        'numba==0.53.1',
+        'numba>=0.53.1',
         'pandas>=1.1.5',
         'python-binance>=0.7.5',
         'pyecharts==1.9.1',

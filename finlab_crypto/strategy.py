@@ -33,7 +33,7 @@ import vectorbt as vbt
 from vectorbt.portfolio.enums import Direction
 import pandas as pd
 import matplotlib.pyplot as plt
-from collections import Iterable
+from collections.abc import Iterable
 
 
 class Filter(object):
@@ -111,7 +111,6 @@ class Filter(object):
                 results = self.func(ohlcv)
 
                 v = remove_pd_object(v)
-
                 if isinstance(results, Iterable):
                     signals[str(v)], fig_data = results
                 else:

@@ -137,7 +137,8 @@ BINANCE_KEY=<<YOUR_BINANCE_KEY>> BINANCE_SECRET=<<YOUR_BINANCE_SECRET>> coverage
 ```
 
 ## Updates
-Version 0.2.22 - [@kodiakcrypto](https://github.com/kodiakcrypto)
+
+Version 0.2.28 - [@kodiakcrypto](https://github.com/kodiakcrypto)
 
 * added shorting capability
 * added 'both' as a valid 'backtest.side' param 
@@ -145,6 +146,28 @@ Version 0.2.22 - [@kodiakcrypto](https://github.com/kodiakcrypto)
 * changed default fees to 0.075% because standard taker fees
 * slippage to 0 by default
 * updated SMA + BB demo strategy examples
+
+Version 0.2.27
+
+* support new version of pandas 3.8
+* support 3.8 syntax
+
+Version 0.2.26
+
+* fix dependency of python 3.10
+
+Version 0.2.25
+Version 0.2.24
+
+* fix dependency in colab
+
+Version 0.2.23
+
+* fix binance min_notional not found
+
+Version 0.2.22
+
+* fix compatability of seaborn in cscv algorithm plotting
 
 Version 0.2.21
 
